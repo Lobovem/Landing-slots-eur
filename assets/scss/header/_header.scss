@@ -16,7 +16,6 @@
     @include xl {
       padding-top: 45px;
     }
-
     @include md {
       padding-top: 35px;
     }
@@ -35,7 +34,6 @@
       background: #ff00e5;
 
       filter: blur(127.5px);
-
       @include lg {
         left: 50%;
 
@@ -43,7 +41,6 @@
 
         transform: translateX(-50%);
       }
-
       mix-blend-mode: soft-light;
     }
 
@@ -79,19 +76,15 @@
     align-items: start;
 
     gap: 130px;
-
     @include xl {
       gap: 20px;
     }
-
     @include lg-min {
       justify-content: space-between;
     }
-
     @include lg {
       justify-content: space-around;
     }
-
     @include md {
       gap: 0;
     }
@@ -114,7 +107,6 @@
     @include xl-lg {
       margin-right: 80px;
     }
-
     @include md {
       margin-right: -100px;
 
@@ -142,7 +134,6 @@
         filter: blur(127.5px);
         mix-blend-mode: soft-light;
       }
-
       @include xl {
         display: none;
       }
@@ -161,7 +152,6 @@
       background: #fcb82f;
 
       filter: blur(75px);
-
       @include lg {
         top: 200px;
 

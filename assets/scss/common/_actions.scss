@@ -21,7 +21,6 @@
       max-width: 201px;
       margin-bottom: 60px;
     }
-
     @include md {
       max-width: 144px;
       margin-bottom: 30px;
@@ -48,12 +47,10 @@
     @include xl {
       margin-bottom: 10px;
     }
-
     @include lg {
       font-size: $font-size-16;
       line-height: 20px;
     }
-
     @include xs {
       margin-bottom: 10px;
 
@@ -91,14 +88,12 @@
       font-size: $font-size-90;
       line-height: 120%;
     }
-
     @include lg {
       max-width: 300px;
       margin-bottom: 20px;
 
       font-size: $font-size-48;
     }
-
     @include md {
       margin-bottom: 30px;
     }
@@ -136,7 +131,6 @@
       width: 378px;
       min-height: 94px;
     }
-
     @include lg {
       width: 266px;
       min-height: 66px;
@@ -179,7 +173,6 @@
       font-size: $font-size-36;
       line-height: 44px;
     }
-
     @include lg {
       width: 266px;
       min-height: 66px;
